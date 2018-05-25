@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">AndroidMVPDemo</string>
+    <string name="sure">确定</string>
+    <string name="cancle">取消</string>
+    <string name="dialog_log_in_message">正在登陆中...</string>
+    <string name="input_account_name_not_empty">用户名不能为空!</string>
+    <string name="input_password_not_empty">密码不能为空!</string>
+    <string name="input_account_format_error">帐号格式错误!</string>
+    <string name="log_in_out_time">登录超时</string>
+    <string name="request_permission_exception">请求权限发生异常!</string>
+    <string name="dialog_tips">号码请输入您所购买的设备上安装的手机卡号码（不是您当前智能手机的号码哦）</string>
+    <string name="login_tips">请确保设备端插卡且处于开机状态，SIM卡有效并开通了GPRS业务!</string>
+    <string name="need_permission">该功能需要使用%s,请允许用户使用该权限!</string>
+    <string name="permission_check">权限检查</string>
+    <string name="forbidden_the_permission">该功能需要%s已经被禁止,请到 \"设置--权限管理\" 打开应用所需要的权限!</string>
+
+    <string name="login_title1">关爱</string>
+    <string name="login_title2">随行，安全放心</string>
+    <string name="login_number">号 码：</string>
+
+    <string name="login_number_hint">输入设备手机号</string>
+    <string name="login_pwd_hint">初始密码为号码后6位</string>
+    <string name="login">登    录</string>
+    <string name="register_a_new_account">注册新账号</string>
+    <string name="how_get_pwd">忘记密码？</string>
+
+    <string name="camera_permission">相机权限</string>
+    <string name="read_external_storage_permission">读外部存储器权限</string>
+    <string name="write_external_storage_permission">写外部存储器权限</string>
+    <string name="record_audio_permission">录音权限</string>
+    <string name="read_phone_state_permission">读SIM卡状态码权限</string>
+    <string name="internet_permission">使用网络权限</string>
+    <string name="send_sms_permission">发送短信权限</string>
+    <string name="read_sms_permission">读取短信权限</string>
+
+    <string name="network_exception">网络异常，请检查您的网络，稍后再试！</string>
+    <string name="parse_net_info_exception">解析服务器信息发生错误!</string>
+    <string name="unknow_exception">未知异常!</string>
+    <string name="need_net_perssion_exception">当前应用没有网络权限，您需要为该应用提供访问网络权限!</string>
+
+</resources>

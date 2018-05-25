@@ -1,0 +1,94 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:2972578579155049788",
+      "lastPropertyId": "17:1160784779404732594",
+      "name": "PupilInfo",
+      "properties": [
+        {
+          "id": "1:5712328027667235574",
+          "name": "id"
+        },
+        {
+          "id": "2:4680167621206742549",
+          "name": "phone"
+        },
+        {
+          "id": "3:5516660293726392905",
+          "name": "nickName"
+        },
+        {
+          "id": "4:6255737311219697899",
+          "name": "hdUrl"
+        },
+        {
+          "id": "5:8737781704108391722",
+          "name": "email"
+        },
+        {
+          "id": "6:999178299490192758",
+          "name": "isCurrent"
+        },
+        {
+          "id": "7:6425406398524657274",
+          "name": "isOnline"
+        },
+        {
+          "id": "8:448463390818710642",
+          "name": "password"
+        },
+        {
+          "id": "9:4296090387202740742",
+          "name": "isTrack"
+        },
+        {
+          "id": "10:8470387468413795815",
+          "name": "bIsValidity"
+        },
+        {
+          "id": "11:3048391677270026026",
+          "name": "authorization"
+        },
+        {
+          "id": "12:9059003337841370529",
+          "name": "endValidTime"
+        },
+        {
+          "id": "13:3668807592084101997",
+          "name": "logoUrl"
+        },
+        {
+          "id": "14:3567779723815028031",
+          "name": "productName"
+        },
+        {
+          "id": "15:2634599632062342441",
+          "name": "localization"
+        },
+        {
+          "id": "16:8463672233739728788",
+          "name": "imsi"
+        },
+        {
+          "id": "17:1160784779404732594",
+          "name": "countryCode"
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "1:2972578579155049788",
+  "lastIndexId": "0:0",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 4,
+  "modelVersionParserMinimum": 4,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}

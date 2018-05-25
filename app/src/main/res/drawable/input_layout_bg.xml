@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- view的各种状态(正常无焦点,焦点,onclick按下、放开等等) -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item><shape>
+            <gradient android:angle="270" android:endColor="#ffffff" android:startColor="#ffffff" />
+
+            <stroke android:width="1dip" android:color="#ffffff" />
+
+            <corners android:radius="5dp" />
+        </shape></item>
+
+</selector>
