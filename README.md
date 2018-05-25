@@ -4,8 +4,14 @@
 M:对数据的管理，例如：sharefreference、dbdata以及文件等；
 
 V:使用activity和fragment充当view的角色；
+该项目中所有的activity都继承BaseActivity，所有的fragment继承BaseFragment，在该基类中实现一些常用的方法，同时该基类实现了view对应接口的父类，一次实现
 
-P:控制逻辑，充当view和model之间通信的枢纽；
+所有view都需要的一些基础方法，BaseFragment也实现了同样的功能，类似获取activity的context，设置activity actionbar的一些方法，方便presentor的调用；所
+
+有的view实现一个view接口，presentor通过该接口对view进行控制，view中会初始化一个当前view 的presentor来达到让presentor控制自己的目的；
+
+
+P:控制逻辑，充当view和model之间通信的枢纽，所有的presentor继承一个基础presentor，在presentor的构造方法中传入view 实体，通过该实体对view进行控制；
 
 网络访问使用了retrofit框架，结合rxjava使用非常简洁方便；
 
